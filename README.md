@@ -24,6 +24,7 @@ Animações com CSS puro
 Áudio de aplausos via CDN
 
 🕹 Exemplos de categorias:
+
 O mais tiltado da call
 
 O mais engraçado
