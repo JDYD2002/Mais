@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oscar da Call 🎮</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <audio id="applause" src="https://cdn.pixabay.com/audio/2022/03/15/audio_e43fa3a1f3.mp3"></audio>
+  <div class="container">
+    <h1 id="categoria">Categoria: ...</h1>
+
+    <div class="vencedor-section" id="vencedor-section">
+      <h2 id="vencedor">🏆 Vencedor: ...</h2>
+      <div class="vencedor-card">
+        <img id="avatar" class="vencedor-img" src="" alt="Avatar" />
+      </div>
+      <div class="grafico">[ Gráfico de votos aqui ]</div>
+    </div>
+
+    <button onclick="mostrarVencedor()">🎬 Revelar vencedor</button>
+    <button onclick="proximaCategoria()">➡️ Próxima categoria</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
